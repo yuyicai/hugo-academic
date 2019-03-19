@@ -10,11 +10,13 @@
 [js.jQuery]
   version = "3.3.1"
   sri = "sha512-+NqPlbbtM1QqiK8ZAo4Yrj2c4lNQoGv8P79DPtKzj++l5jnN39rHA/xsqn8zE9l0uSoxaCdrOgFs6yjyfbBxSg=="
-  url = "https://cdnjs.cloudflare.com/ajax/libs/jquery/%s/jquery.min.js"
+#  url = "https://cdnjs.cloudflare.com/ajax/libs/jquery/%s/jquery.min.js"
+  url = "https://cdn.jsdelivr.net/npm/jquery@%s/dist/jquery.min.js"
 [js.bootstrap]
   version = "4.1.3"
   sri = "sha256-VsEqElsCHSGmnmHXGQzvoWjWwoznFSZc6hs7ARLRacQ="
-  url = "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/%s/js/bootstrap.min.js"
+#  url = "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/%s/js/bootstrap.min.js"
+  url = "https://cdn.jsdelivr.net/npm/bootstrap@%s/dist/js/bootstrap.min.js"
 [js.highlight]
   version = "9.12.0"
   sri = "sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw="
