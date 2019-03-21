@@ -9,92 +9,114 @@
 
 [js.jQuery]
   version = "3.3.1"
-  sri = "sha512-+NqPlbbtM1QqiK8ZAo4Yrj2c4lNQoGv8P79DPtKzj++l5jnN39rHA/xsqn8zE9l0uSoxaCdrOgFs6yjyfbBxSg=="
-  url = "https://cdnjs.cloudflare.com/ajax/libs/jquery/%s/jquery.min.js"
+  sri = "sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+#  url = "https://cdnjs.cloudflare.com/ajax/libs/jquery/%s/jquery.min.js"
+  url = "https://cdn.jsdelivr.net/npm/jquery@%s/dist/jquery.min.js"
 [js.bootstrap]
   version = "4.1.3"
   sri = "sha256-VsEqElsCHSGmnmHXGQzvoWjWwoznFSZc6hs7ARLRacQ="
-  url = "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/%s/js/bootstrap.min.js"
+#  url = "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/%s/js/bootstrap.min.js"
+  url = "https://cdn.jsdelivr.net/npm/bootstrap@%s/dist/js/bootstrap.min.js"
 [js.highlight]
-  version = "9.12.0"
+  version = "9.15.6"
   sri = "sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw="
-  url = "https://cdnjs.cloudflare.com/ajax/libs/highlight.js/%s/highlight.min.js"
+#  url = "https://cdnjs.cloudflare.com/ajax/libs/highlight.js/%s/highlight.min.js"
+  url = "https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@%s/build/highlight.min.js"
 [js.mathJax]
   version = "2.7.4"
   sri = "sha256-GhM+5JHb6QUzOQPXSJLEWP7R73CbkisjzK5Eyij4U9w="
-  url = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/%s/MathJax.js?config=TeX-AMS_CHTML-full"
+#  url = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/%s/MathJax.js?config=TeX-AMS_CHTML-full"
+  url = "https://cdn.jsdelivr.net/npm/mathjax@%s/MathJax.js?config=TeX-AMS_CHTML-full"
 [js.isotope]
   version = "3.0.6"
   sri = "sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI="
-  url = "https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/%s/isotope.pkgd.min.js"
+#  url = "https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/%s/isotope.pkgd.min.js"
+  url = "https://cdn.jsdelivr.net/npm/isotope-layout@%s/dist/isotope.pkgd.min.js"
 [js.imagesLoaded]
   version = "4.1.4"
   sri = "sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q="
-  url = "https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/%s/imagesloaded.pkgd.min.js"
+#  url = "https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/%s/imagesloaded.pkgd.min.js"
+  url = "https://cdn.jsdelivr.net/npm/imagesloaded@%s/imagesloaded.pkgd.min.js"
 [js.autotrack]
   version = "2.4.1"
-  sri = "sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g=="
-  url = "https://cdnjs.cloudflare.com/ajax/libs/autotrack/%s/autotrack.js"
-[js.gmaps]
-  version = "0.4.25"
-  sri = "sha256-7vjlAeb8OaTrCXZkCNun9djzuB2owUsaO72kXaFDBJs="
-  url = "https://cdnjs.cloudflare.com/ajax/libs/gmaps.js/%s/gmaps.min.js"
+  sri = "sha256-vOtzmT0JTEyCHHVxkhEDvcjAXpCCxPxRPSRDWNU1k9s="
+#  url = "https://cdnjs.cloudflare.com/ajax/libs/autotrack/%s/autotrack.js"
+  url = "https://cdn.jsdelivr.net/npm/autotrack@%s/autotrack.js"
+# [js.gmaps]
+#   version = "0.4.25"
+#   sri = "sha256-7vjlAeb8OaTrCXZkCNun9djzuB2owUsaO72kXaFDBJs="
+#   url = "https://cdnjs.cloudflare.com/ajax/libs/gmaps.js/%s/gmaps.min.js"
 [js.leaflet]
   version = "1.2.0"
-  sri = "sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log=="
-  url = "https://cdnjs.cloudflare.com/ajax/libs/leaflet/%s/leaflet.js"
+  sri = "sha256-kdEnCVOWosn3TNsGslxB8ffuKdrZoGQdIdPwh7W1CsE="
+#  url = "https://cdnjs.cloudflare.com/ajax/libs/leaflet/%s/leaflet.js"
+  url = "https://cdn.jsdelivr.net/npm/leaflet@%s/dist/leaflet.js"
 [js.fancybox]
   version = "3.2.5"
   sri = "sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M="
-  url = "https://cdnjs.cloudflare.com/ajax/libs/fancybox/%s/jquery.fancybox.min.js"
+#  url = "https://cdnjs.cloudflare.com/ajax/libs/fancybox/%s/jquery.fancybox.min.js"
+  url = "https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@%s/dist/jquery.fancybox.min.js"
 [js.fuse]
   version = "3.2.1"
   sri = "sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI="
-  url = "https://cdnjs.cloudflare.com/ajax/libs/fuse.js/%s/fuse.min.js"
+#  url = "https://cdnjs.cloudflare.com/ajax/libs/fuse.js/%s/fuse.min.js"
+  url = "https://cdn.jsdelivr.net/npm/fuse.js@%s/dist/fuse.min.js"
 [js.mark]
   version = "8.11.1"
   sri = "sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U="
-  url = "https://cdnjs.cloudflare.com/ajax/libs/mark.js/%s/jquery.mark.min.js"
+#  url = "https://cdnjs.cloudflare.com/ajax/libs/mark.js/%s/jquery.mark.min.js"
+  url = "https://cdn.jsdelivr.net/npm/mark.js@%s/dist/jquery.mark.min.js"
 [js.instantsearch]
   version = "2.10.2"
   sri = "sha256-gFCtPk/sonctyfwYOgjrPoWApQ0rqB6ezBBZ7p32yGc="
-  url = "https://cdnjs.cloudflare.com/ajax/libs/instantsearch.js/%s/instantsearch.min.js"
+#  url = "https://cdnjs.cloudflare.com/ajax/libs/instantsearch.js/%s/instantsearch.min.js"
+  url = "https://cdn.jsdelivr.net/npm/instantsearch.js@%s/dist/instantsearch.min.js"
 [js.anchor]
   version = "4.1.1"
   sri = "sha256-pB/deHc9CGfFpJRjC43imB29Rse8tak+5eXqntO94ck="
-  url = "https://cdnjs.cloudflare.com/ajax/libs/anchor-js/%s/anchor.min.js"
+#  url = "https://cdnjs.cloudflare.com/ajax/libs/anchor-js/%s/anchor.min.js"
+  url = "https://cdn.jsdelivr.net/npm/anchor-js@%s/anchor.min.js"
 
 # CSS
 
 [css.bootstrap]
   version = "4.1.3"
   sri = "sha256-eSi1q2PG6J7g7ib17yAaWMcrr5GrtohYChqibrV7PBE="
-  url = "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/%s/css/bootstrap.min.css"
+#  url = "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/%s/css/bootstrap.min.css"
+  url = "https://cdn.jsdelivr.net/npm/bootstrap@%s/dist/css/bootstrap.min.css"
 [css.fontAwesome]
   version = "5.6.0"
-  sri = "sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h"
-  url = "https://use.fontawesome.com/releases/v%s/css/all.css"
+  sri = "sha256-wX/yv3XrMHL9ho8i2z4rFw6B6cKKtxFiBuB2S+CRlmw="
+#  url = "https://use.fontawesome.com/releases/v%s/css/all.css"
+  url = "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@%s/css/all.min.css"
 [css.academicons]
   version = "1.8.6"
   sri = "sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw="
-  url = "https://cdnjs.cloudflare.com/ajax/libs/academicons/%s/css/academicons.min.css"
+#  url = "https://cdnjs.cloudflare.com/ajax/libs/academicons/%s/css/academicons.min.css"
+  url = "https://cdn.staticfile.org/academicons/%s/css/academicons.min.css"
 [css.leaflet]
   version = "1.2.0"
-  sri = "sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ=="
-  url = "https://cdnjs.cloudflare.com/ajax/libs/leaflet/%s/leaflet.css"
+  sri = "sha256-LcmP8hlMTofQrGU6W2q3tUnDnDZ1QVraxfMkP060ekM="
+#  url = "https://cdnjs.cloudflare.com/ajax/libs/leaflet/%s/leaflet.css"
+  url = "https://cdn.jsdelivr.net/npm/leaflet@%s/dist/leaflet.css"
 [css.fancybox]
   version = "3.2.5"
   sri = "sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs="
-  url = "https://cdnjs.cloudflare.com/ajax/libs/fancybox/%s/jquery.fancybox.min.css"
+#  url = "https://cdnjs.cloudflare.com/ajax/libs/fancybox/%s/jquery.fancybox.min.css"
+  url = "https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@%s/dist/jquery.fancybox.min.css"
 [css.instantsearch]
   version = "2.9.0"
   sri = "sha256-ZtmLe16p4jS4/2wPwwH6NzJt460SJzgLmhKrYo5yn7g="
-  url = "https://cdnjs.cloudflare.com/ajax/libs/instantsearch.js/%s/instantsearch.min.css"
+#  url = "https://cdnjs.cloudflare.com/ajax/libs/instantsearch.js/%s/instantsearch.min.css"
+  url = "https://cdn.jsdelivr.net/npm/instantsearch.js@%s/dist/instantsearch.min.css"
 [css.instantsearchTheme]
   version = "2.10.2"
   sri = "sha256-uL8LUd3zkI/lXvc/Hv/oOu8ld6RJcOZiUY/8c+I+3/o="
-  url = "https://cdnjs.cloudflare.com/ajax/libs/instantsearch.js/%s/instantsearch-theme-algolia.min.css"
+#  url = "https://cdnjs.cloudflare.com/ajax/libs/instantsearch.js/%s/instantsearch-theme-algolia.min.css"
+  url = "https://cdn.jsdelivr.net/npm/instantsearch.js@%s/dist/instantsearch-theme-algolia.min.css"
 [css.highlight]
-  version = "9.12.0"
+  version = "9.15.6"
   sri = ""  # No SRI as highlight style is determined at run time.
-  url = "https://cdnjs.cloudflare.com/ajax/libs/highlight.js/%s/styles/%s.min.css"
+#  url = "https://cdnjs.cloudflare.com/ajax/libs/highlight.js/%s/styles/%s.min.css"
+  url = "https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@%s/build/styles/default.min.css"
+  
